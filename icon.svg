@@ -1,1 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><rect width="124" height="124" x="2" y="2" fill="#363d52" stroke="#212532" stroke-width="4" rx="14"/><g fill="#fff" transform="translate(12.322 12.322)scale(.101)"><path d="M105 673v33q407 354 814 0v-33z"/><path fill="#478cbf" d="m105 673 152 14q12 1 15 14l4 67 132 10 8-61q2-11 15-15h162q13 4 15 15l8 61 132-10 4-67q3-13 15-14l152-14V427q30-39 56-81-35-59-83-108-43 20-82 47-40-37-88-64 7-51 8-102-59-28-123-42-26 43-46 89-49-7-98 0-20-46-46-89-64 14-123 42 1 51 8 102-48 27-88 64-39-27-82-47-48 49-83 108 26 42 56 81zm0 33v39c0 276 813 276 814 0v-39l-134 12-5 69q-2 10-14 13l-162 11q-12 0-16-11l-10-65H446l-10 65q-4 11-16 11l-162-11q-12-3-14-13l-5-69z"/><path d="M483 600c0 34 58 34 58 0v-86c0-34-58-34-58 0z"/><circle cx="725" cy="526" r="90"/><circle cx="299" cy="526" r="90"/></g><g fill="#414042" transform="translate(12.322 12.322)scale(.101)"><circle cx="307" cy="532" r="60"/><circle cx="717" cy="532" r="60"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 262144 262144"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="walk.svg"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   inkscape:export-filename="../Documents/Godot/2d_crpg_controller/icon.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   width="262144"
+   height="262144"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="68.992905"
+       y="37.522457"
+       width="129.513"
+       height="444.2175"
+       id="rect2" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="false"
+     inkscape:zoom="0.82617188"
+     inkscape:cx="128.9078"
+     inkscape:cy="250.55319"
+     inkscape:window-width="1920"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="262144"
+       height="262144"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <rect
+     fill="#478cbf"
+     fill-opacity="1"
+     height="512"
+     width="512"
+     rx="32"
+     ry="32"
+     id="rect1"
+     x="0"
+     y="0" />
+  <g
+     class=""
+     transform="translate(92.595744,6.6572104)"
+     id="g1">
+    <path
+       d="m 271.9,25.85 c -18.4,0 -36,16.73 -39.2,40.97 -3.4,25.83 11.3,47.48 30.9,49.88 19.7,2.4 39.5,-14.9 43,-40.77 3.5,-25.86 -11.5,-47.43 -31,-49.85 -1.2,-0.15 -2.5,-0.23 -3.7,-0.23 z m -38.2,95.75 c -38,6.3 -75.2,41.9 -94,66 -11.5,33.4 -14.5,66.7 -20.7,100 l 28.2,-0.8 c 6.6,-25.2 8.2,-51.9 21,-75.4 14.8,-8.2 26.9,-20.6 38.4,-33.8 -6.4,32.9 -14,72.3 -13.2,101.8 29.8,70.9 95.7,140.4 133,206.4 l 29.9,-24.3 C 327.5,405.8 298.8,355.1 262,301.3 c 2.1,-7.1 43.3,-163.5 28,-171.9 -20.2,9 -40.9,6 -56.3,-7.8 z m 71.9,58.6 c -3.1,17.8 -5.3,35.1 -10,52.8 4.5,5.4 7.5,10.5 14.3,15.3 26,15.3 52,26.3 78,36.7 l 9.2,-29.9 -77.5,-37.6 c -4.3,-12.5 -7.9,-25.2 -14,-37.3 z M 187.1,310.1 c -5.1,25 -9.8,50.2 -11.6,76.5 -15.9,31.7 -35.7,51.6 -60.5,76.4 l 30,23.2 c 23.1,-25 49.9,-47 66.7,-73.8 l 14,-42.6 C 210,350.8 197.3,331 187.1,310.1 Z"
+       fill="#ffffff"
+       fill-opacity="1"
+       id="path1" />
+  </g>
+  <text
+     xml:space="preserve"
+     id="text1"
+     style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2);display:inline"
+     transform="matrix(0,-4.7899882,4.902602,0,-184.49942,902.60796)"><tspan
+       x="86.909119"
+       y="74.844008"
+       id="tspan3"><tspan
+         style="font-family:'Lilita One';-inkscape-font-specification:'Lilita One';fill:#ffffff"
+         id="tspan1">CRPG</tspan></tspan></text>
+</svg>
