@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=3 uid="uid://b6mhebojvb3wp"]
+
+[ext_resource type="Script" uid="uid://c0svfcolbvwen" path="res://addons/crpg_controller_2d/crpg_character2d.gd" id="1_hawnf"]
+[ext_resource type="Script" uid="uid://p3axsw7giwys" path="res://addons/crpg_controller_2d/camera_2d_with_zoom.gd" id="2_44d6u"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7rgjr"]
+radius = 21.3776
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qbkek"]
+radius = 80.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pmcst"]
+radius = 1.0
+
+[node name="CharacterBody2D" type="CharacterBody2D" node_paths=PackedStringArray("nav_agent", "interaction_area", "shapecast")]
+floor_constant_speed = true
+script = ExtResource("1_hawnf")
+nav_agent = NodePath("NavigationAgent2D")
+interaction_area = NodePath("InteractionArea")
+shapecast = NodePath("ShapeCast2D")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -41)
+script = ExtResource("2_44d6u")
+zoom_speed = 0.01
+
+[node name="Shape" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_7rgjr")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+path_desired_distance = 5.0
+target_desired_distance = 3.0
+radius = 80.0
+max_speed = 200.0
+debug_enabled = true
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-24, -72, -24, 8, 24, 8, 24, -72)
+uv = PackedVector2Array(-31, -75, -32, 8, 28, 8, 28, -86)
+
+[node name="InteractionArea" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+shape = SubResource("CircleShape2D_qbkek")
+
+[node name="ShapeCast2D" type="ShapeCast2D" parent="."]
+shape = SubResource("CircleShape2D_pmcst")
+target_position = Vector2(0, 0)
+collision_mask = 2
+collide_with_areas = true
+
+[connection signal="area_entered" from="InteractionArea" to="." method="_on_interaction_area_area_entered"]
